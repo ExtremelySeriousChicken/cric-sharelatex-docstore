@@ -3,4 +3,7 @@ app/js/
 test/unit/js
 test/acceptance/js
 app.js
+.DS_Store
+app/.DS_Store
+package-lock.json
 forever
