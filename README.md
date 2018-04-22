@@ -1,9 +1,8 @@
 docstore-sharelatex
 ===================
+Originally from docstore-latex, this repository is used to test a research project. The link to the original: https://github.com/sharelatex/docstore-sharelatex
+A CRUD API for storing and updating text documents in project
 
-A CRUD API for storing and updating text documents in projects
-
-[![Build Status](https://travis-ci.org/sharelatex/docstore-sharelatex.png?branch=master)](https://travis-ci.org/sharelatex/docstore-sharelatex)
 
 License
 -------
