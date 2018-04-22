@@ -17,6 +17,7 @@ module.exports = DocManager =
 			return callback("must include inS3 when getting doc")
 
 		MongoManager.findDoc project_id, doc_id, filter, (err, doc)->
+			logger.log "result: ", err, doc
 			if err?
 				return callback(err)
 			else if !doc?

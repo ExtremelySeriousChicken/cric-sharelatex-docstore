@@ -6,6 +6,7 @@ module.exports = MongoManager =
 
 	findDoc: (project_id, doc_id, filter, callback = (error, doc) ->) ->
 		db.docs.find {_id: ObjectId(doc_id.toString()), project_id: ObjectId(project_id.toString())}, filter, (error, docs = []) ->
+			logger.log callback.toString, docs
 			callback error, docs[0]
 
 	getProjectsDocs: (project_id, options = {include_deleted: true}, filter, callback)->
